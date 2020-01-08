@@ -13,21 +13,21 @@
 
 6、写函数，返回一个扑克牌列表，里面有52项，每一项是一个元组
 
-- 例如：[(‘红心’，2),(‘草花’，2), …(‘黑桃A’)]
+- 例如：[('红心'，2),('草花'，2), …('黑桃A')]
 
-7、写函数，传入n个数，返回字典{‘max’:最大值,’min’:最小值}
+7、写函数，传入n个数，返回字典{'max':最大值,'min':最小值}
 - 例如:minmax(2,5,7,8,4)
-- 返回:{‘max’:8,’min’:2}
+- 返回:{'max':8,'min':2}
 
 8、写函数，专门计算图形的面积
 
 - 其中嵌套函数，计算圆的面积，正方形的面积和长方形的面积
 
-- 调用函数area(‘圆形’,圆半径) 返回圆的面积
+- 调用函数area('圆形',圆半径) 返回圆的面积
 
-- 调用函数area(‘正方形’,边长) 返回正方形的面积
+- 调用函数area('正方形',边长) 返回正方形的面积
 
-- 调用函数area(‘长方形’,长，宽) 返回长方形的面积
+- 调用函数area('长方形',长，宽) 返回长方形的面积
 
 -  代码模板
 ```shell script
@@ -68,7 +68,7 @@ def area():
    
    - 代码结构如下
 ```shell script
-def logger(filename,channel=’file’):
+def logger(filename,channel='file'):
     '''
     日志方法
     :param filename: log filename
@@ -77,29 +77,30 @@ def logger(filename,channel=’file’):
     '''
     代码写这里
  #调用
-logobj = logger(filename=”web.log”,channel=’both’)
+logobj = logger(filename=”web.log”,channel='both')
 log_obj.__next()
-log_obj.send(‘user feko login success’)
+log_obj.send('user feko login success')
 ```
 
 
 
 14、用map来处理字符串列表,把列表中所有人都变成sb,比方feko_sb
 
-- name=[‘feko’,’wupeiqi’,’yuanhao’,’nezha’]
+- name=['feko','wupeiqi','yuanhao','nezha']
 
 15、用filter函数处理数字列表，将列表中所有的偶数筛选出来
 - num = [1,3,5,6,7,8]
+
 16、如下，每个小字典的name对应股票名字，shares对应多少股，price对应股票的价格
 
 ```shell script
 portfolio = [
-    {‘name’: ‘IBM’, ‘shares’: 100, ‘price’: 91.1},
-    {‘name’: ‘AAPL’, ‘shares’: 50, ‘price’: 543.22},
-    {‘name’: ‘FB’, ‘shares’: 200, ‘price’: 21.09},
-    {‘name’: ‘HPQ’, ‘shares’: 35, ‘price’: 31.75},
-    {‘name’: ‘YHOO’, ‘shares’: 45, ‘price’: 16.35},
-    {‘name’: ‘ACME’, ‘shares’: 75, ‘price’: 115.65}
+    {'name': 'IBM', 'shares': 100, 'price': 91.1},
+    {'name': 'AAPL', 'shares': 50, 'price': 543.22},
+    {'name': 'FB', 'shares': 200, 'price': 21.09},
+    {'name': 'HPQ', 'shares': 35, 'price': 31.75},
+    {'name': 'YHOO', 'shares': 45, 'price': 16.35},
+    {'name': 'ACME', 'shares': 75, 'price': 115.65}
 ]
 ```
 - 通过哪个内置函数可以计算购买每支股票的总价
@@ -107,10 +108,10 @@ portfolio = [
 
 
 
-17、有列表 li = [‘feko’, ‘nooee’, ‘biga’, ‘pllz’, ‘feko1’], 请将以字母“a”开头的元素的
+17、有列表 li = ['feko', 'nooee', 'biga', 'pllz', 'feko1'], 请将以字母“f”开头的元素的
     首字母改为大写字母；
 
-18、有列表 li = [‘feko’, ‘nooee’, ‘biga’, ‘pllz’, ‘feko1’], 请以列表中每个元素的第二个
+18、有列表 li = ['feko', 'nooee', 'biga', 'pllz', 'feko1'], 请以列表中每个元素的第二个
     字母倒序排序；
 
 19、有名为poetry.txt的文件，其内容如下，请删除第三行；
@@ -144,5 +145,3 @@ nooee, 100003
 24、lambda是什么？请说说你曾在什么场景下使用lambda？
 
 25、题目：写一个摇骰子游戏，要求用户压大小，赔率一赔一。要求：三个骰子，每个骰子的值从1-6，摇大小，每次打印摇出来3个骰子的值。
-
-题目来自小猿圈自学网https://www.apeland.cn/，仅供个人练习参考
